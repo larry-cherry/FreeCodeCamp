@@ -4,7 +4,8 @@
   "description": "Convert a string to spinal case",
   "main": "spinalCase.js",
   "scripts": {
-    "test": "jasmine"
+    "test": "jasmine",
+    "start": "node runner.js"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,7 @@
   "homepage": "https://github.com/larry-cherry/FreeCodeCamp#readme",
   "dependencies": {
     "jasmine": "^2.8.0",
+    "prompt": "^1.0.0",
     "pryjs": "^1.0.3"
   }
 }
