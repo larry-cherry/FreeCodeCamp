@@ -39,3 +39,4 @@ Thumbs.db
 # Node/JavaScript #
 ###################
 node_modules/
+package-lock.json

@@ -1,0 +1,29 @@
+{
+  "name": "spinaltapcase",
+  "version": "1.0.0",
+  "description": "Convert a string to spinal case",
+  "main": "spinalCase.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/larry-cherry/FreeCodeCamp.git"
+  },
+  "keywords": [
+    "Node",
+    "JavaScript",
+    "Jasmine",
+    "FreeCodeCamp"
+  ],
+  "author": "Larry Cherry",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/larry-cherry/FreeCodeCamp/issues"
+  },
+  "homepage": "https://github.com/larry-cherry/FreeCodeCamp#readme",
+  "dependencies": {
+    "jasmine": "^2.8.0",
+    "pryjs": "^1.0.3"
+  }
+}
