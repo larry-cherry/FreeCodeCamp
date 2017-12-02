@@ -1,0 +1,30 @@
+{
+  "name": "sumoddfibs",
+  "version": "1.0.0",
+  "description": "sum of all odd Fibonacci numbers that are less than or equal to the input ",
+  "main": "sumOddFibs.js",
+  "scripts": {
+    "test": "jasmine",
+    "start": "node runner.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/larry-cherry/FreeCodeCamp.git"
+  },
+  "keywords": [
+    "node",
+    "jasmine",
+    "fibonacci",
+    "FreeCodeCamp"
+  ],
+  "author": "Larry Cherry",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/larry-cherry/FreeCodeCamp/issues"
+  },
+  "homepage": "https://github.com/larry-cherry/FreeCodeCamp#readme",
+  "dependencies": {
+    "jasmine": "^2.8.0",
+    "pryjs": "^1.0.3"
+  }
+}
