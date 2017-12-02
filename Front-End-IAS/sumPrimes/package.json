@@ -1,0 +1,31 @@
+{
+  "name": "sumprimes",
+  "version": "1.0.0",
+  "description": "Sum all prime numbers up to and including the provided prime number",
+  "main": "sumPrimes.js",
+  "scripts": {
+    "test": "jasmine",
+    "start": "node runner.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/larry-cherry/FreeCodeCamp.git"
+  },
+  "keywords": [
+    "Node",
+    "Prime",
+    "Numbers",
+    "FreeCodeCamp",
+    "Jasmine"
+  ],
+  "author": "Larry Cherry",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/larry-cherry/FreeCodeCamp/issues"
+  },
+  "homepage": "https://github.com/larry-cherry/FreeCodeCamp#readme",
+  "dependencies": {
+    "jasmine": "^2.8.0",
+    "prompt": "^1.0.0"
+  }
+}
