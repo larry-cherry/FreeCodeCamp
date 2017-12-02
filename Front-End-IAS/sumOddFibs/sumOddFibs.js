@@ -1,20 +1,24 @@
-const pry = require('pryjs');
-function sumOddFibs(num) {
-  let sum = 0;
-  let x = 0
-  let y = 0
-  for(i = 0; i < num; i++){
-    if (i >= 2) {
-      sum += x + y;
-      x = y
-      y = sum;
+function sumOddFibs(n) {
+  let arr = [0];
+  for(i = 1; arr[arr.length - 1] < n; i++){
+    if(i <= 2 && i != 0){
+      arr.push(1);
     }else {
-      x += 1
-      sum += x
-    }
+      let temp = arr[i - 1] + arr[i - 2];
+      arr.push(temp);
+    } 
   }
-  return sum
+  var res = arr.map( (x) => {
+    if(x % 2 == 0 || x > n){
+      return 0;
+    }else {
+      return x;
+    }
+    
+  });
+  return res.reduce( (x, y) => {
+    return x + y;
+  });
 }
 
-// module.exports = sumOddFibs;
-console.log(sumOddFibs(5))
+module.exports = sumOddFibs;

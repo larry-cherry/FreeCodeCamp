@@ -25,6 +25,7 @@
   "homepage": "https://github.com/larry-cherry/FreeCodeCamp#readme",
   "dependencies": {
     "jasmine": "^2.8.0",
+    "prompt": "^1.0.0",
     "pryjs": "^1.0.3"
   }
 }
