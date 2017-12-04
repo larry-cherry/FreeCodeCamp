@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Convert a string to spinal case",
   "main": "spinalCase.js",
+  "bin": { 
+    "spinaltap" : "./runner.js"
+  },
   "scripts": {
     "test": "jasmine",
     "start": "node runner.js"
