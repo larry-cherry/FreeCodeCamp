@@ -1,0 +1,30 @@
+{
+  "name": "findelement",
+  "version": "1.0.0",
+  "description": "a function that looks through an array (first argument) and returns the first element in the array that passes a truth test (second argument).",
+  "main": "findElement.js",
+  "scripts": {
+    "test": "jasmine",
+    "start": "node runner.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/larry-cherry/FreeCodeCamp.git"
+  },
+  "keywords": [
+    "FreeCodeCamp",
+    "Node",
+    "Jasmine",
+    "Finders",
+    "Keepers"
+  ],
+  "author": "Larry Cherry",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/larry-cherry/FreeCodeCamp/issues"
+  },
+  "homepage": "https://github.com/larry-cherry/FreeCodeCamp#readme",
+  "dependencies": {
+    "jasmine": "^2.8.0"
+  }
+}
