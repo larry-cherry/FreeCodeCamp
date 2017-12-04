@@ -1,0 +1,31 @@
+{
+  "name": "dropelements",
+  "version": "1.0.0",
+  "description": "Drop the elements of an array (first argument), starting from the front, until the predicate (second argument) returns true",
+  "main": "dropElement.js",
+  "scripts": {
+    "test": "jasmine",
+    "start": "node runner.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/larry-cherry/FreeCodeCamp.git"
+  },
+  "keywords": [
+    "Jasmine",
+    "Node",
+    "FreeCodeCamp",
+    "Drop",
+    "it"
+  ],
+  "author": "Larry Cherry",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/larry-cherry/FreeCodeCamp/issues"
+  },
+  "homepage": "https://github.com/larry-cherry/FreeCodeCamp#readme",
+  "dependencies": {
+    "jasmine": "^2.8.0",
+    "prompt": "^1.0.0"
+  }
+}
