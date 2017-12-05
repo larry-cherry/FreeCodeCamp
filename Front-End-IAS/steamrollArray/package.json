@@ -1,0 +1,29 @@
+{
+  "name": "steamrollarray",
+  "version": "1.0.0",
+  "description": "Flatten a nested array. You must account for varying levels of nesting.",
+  "main": "steamrollArray.js",
+  "scripts": {
+    "test": "jasmine",
+    "start": "node runner.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/larry-cherry/FreeCodeCamp.git"
+  },
+  "keywords": [
+    "FreeCodeCamp",
+    "Steamroller",
+    "Jamsine"
+  ],
+  "author": "Larry Cherry",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/larry-cherry/FreeCodeCamp/issues"
+  },
+  "homepage": "https://github.com/larry-cherry/FreeCodeCamp#readme",
+  "dependencies": {
+    "jasmine": "^2.8.0",
+    "prompt": "^1.0.0"
+  }
+}
