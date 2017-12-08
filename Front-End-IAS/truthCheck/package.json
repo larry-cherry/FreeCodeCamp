@@ -1,0 +1,32 @@
+{
+  "name": "truthcheck",
+  "version": "1.0.0",
+  "description": "Check if the predicate (second argument) is truthy on all elements of a collection (first argument).",
+  "main": "truthCheck.js",
+  "scripts": {
+    "test": "jasmine",
+    "start": "node runner.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/larry-cherry/FreeCodeCamp.git"
+  },
+  "keywords": [
+    "Jasmine",
+    "FreeCodeCamp",
+    "Everything",
+    "Be",
+    "True",
+    "truthCheck"
+  ],
+  "author": "Larry Cherry",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/larry-cherry/FreeCodeCamp/issues"
+  },
+  "homepage": "https://github.com/larry-cherry/FreeCodeCamp#readme",
+  "dependencies": {
+    "jasmine": "^2.8.0",
+    "prompt": "^1.0.0"
+  }
+}
