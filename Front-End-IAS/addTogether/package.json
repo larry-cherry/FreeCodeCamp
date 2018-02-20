@@ -1,0 +1,28 @@
+{
+  "name": "addtogether",
+  "version": "1.0.0",
+  "description": "Create a function that sums two arguments together. If only one argument is provided, then return a function that expects one argument and returns the sum.",
+  "main": "addTogether.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/larry-cherry/FreeCodeCamp.git"
+  },
+  "keywords": [
+    "Freecode",
+    "Camp",
+    "Node",
+    "addTogether"
+  ],
+  "author": "Larry Cherry",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/larry-cherry/FreeCodeCamp/issues"
+  },
+  "homepage": "https://github.com/larry-cherry/FreeCodeCamp#readme",
+  "dependencies": {
+    "pryjs": "^1.0.3"
+  }
+}
